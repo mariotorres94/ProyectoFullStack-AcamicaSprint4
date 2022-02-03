@@ -23,7 +23,7 @@ function useTweetCollection() {
     const navigate = useNavigate();
     const { setTweet } = useContext(TweetContext);
     // const { userGoogle } = useContext(UserContext);
-    const dataUserLogin = JSON.parse(window.localStorage.getItem('dataUsuarioLogin'));
+    const dataUserLogin = JSON.parse(localStorage.getItem('dataUsuarioLogin'));
 
     const meses = ['Ene.', 'Feb.', 'Mar.', 'Abr.', 'May.', 'Jun.', 'Jul.', 'Ago.', 'Sep.', 'Oct.', 'Nov.', 'Dic.'];
     const fecha = new Date();

@@ -12,8 +12,7 @@ const ListTweetsOtherUser = ({ datosUserB }) => {
     const { tweet } = useContext(TweetContext);
     const { addLikes } = useTweetCollection();
 
-    const dataUserLogin = JSON.parse(window.localStorage.getItem('dataUsuarioLogin'));
-
+    const dataUserLogin = JSON.parse(localStorage.getItem('dataUsuarioLogin'));
 
     const styleUsernameImg = {
         display: "flex",

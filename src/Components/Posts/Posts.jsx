@@ -8,7 +8,7 @@ const Posts = ({ logout }) => {
     const [activeSection, setActivateSection] = useState(false);
     const { getAllDocs } = useTweetCollection();
 
-    const dataUserLogin = JSON.parse(window.localStorage.getItem('dataUsuarioLogin'));
+    const dataUserLogin = JSON.parse(localStorage.getItem('dataUsuarioLogin'));
     useEffect(() => {
         getAllDocs();
     })

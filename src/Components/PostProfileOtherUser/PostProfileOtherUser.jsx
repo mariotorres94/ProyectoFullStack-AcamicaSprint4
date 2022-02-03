@@ -6,7 +6,7 @@ import Section from "./Section";
 import useTweetCollection from "../../Hooks/useTweetCollection";
 
 const PostProfileOtherUser = () => {
-    const datosUsuarioB = JSON.parse(window.localStorage.getItem('usuarioB'));
+    const datosUsuarioB = JSON.parse(localStorage.getItem('usuarioB'));
     const { getAllDocs } = useTweetCollection();
 
     useEffect(() => {

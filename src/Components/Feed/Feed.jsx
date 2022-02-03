@@ -7,7 +7,7 @@ import useTweetCollection from "../../Hooks/useTweetCollection";
 import { useLocalStorage } from '../../Hooks/useLocalStorage';
 
 const Feed = () => {
-    const dataUserLogin = JSON.parse(window.localStorage.getItem('dataUsuarioLogin'));
+    const dataUserLogin = JSON.parse(localStorage.getItem('dataUsuarioLogin'));
 
     //LOCAL STORAGE
     const [dataStorageUser, setDataStorageUser] = useLocalStorage('dataStorageUser', '');
