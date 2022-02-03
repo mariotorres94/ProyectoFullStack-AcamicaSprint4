@@ -1,4 +1,4 @@
-# Aplicación Web - Busqueda de Gifos [Carrera: Desarrollo Web Frontend]
+# Aplicación Web - [Carrera: Desarrollo Web Frontend]
 
 ## Aplicación de Busqueda de Gifos
 * [Link a la demo](https://mariotorres94.github.io/ProyectoFullStack-AcamicaSprint4/)
