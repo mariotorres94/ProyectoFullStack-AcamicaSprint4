@@ -1,7 +1,7 @@
 # Aplicación Web - [Carrera: Desarrollo Web Frontend]
 
 ## Aplicación WEB Dev - United
-* [Link a la demo](https://mariotorres94.github.io/ProyectoFullStack-AcamicaSprint4/)
+* [Link a la demo](https://proyecto-prueba-37473.web.app/)
 
 ## Tecnologías y recursos utilizados 
 * [React](https://reactjs.org/)
