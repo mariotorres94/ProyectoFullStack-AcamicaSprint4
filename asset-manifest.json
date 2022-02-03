@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ProyectoFullStack-AcamicaSprint4/static/css/main.6ccb8c50.css",
+    "main.js": "/ProyectoFullStack-AcamicaSprint4/static/js/main.f892877d.js",
+    "static/js/787.537b2553.chunk.js": "/ProyectoFullStack-AcamicaSprint4/static/js/787.537b2553.chunk.js",
+    "static/media/Loading.gif": "/ProyectoFullStack-AcamicaSprint4/static/media/Loading.b179591e9fb0c5bf6acc.gif",
+    "static/media/slkscrb.ttf": "/ProyectoFullStack-AcamicaSprint4/static/media/slkscrb.7b7e6c6a374ebd2ee227.ttf",
+    "static/media/logoBig.svg": "/ProyectoFullStack-AcamicaSprint4/static/media/logoBig.02774cb67d5ca8d957f3b5cc1af497a7.svg",
+    "static/media/logo-small.svg": "/ProyectoFullStack-AcamicaSprint4/static/media/logo-small.e4b3ba562f2e48af66b1593f2b192434.svg",
+    "static/media/google.svg": "/ProyectoFullStack-AcamicaSprint4/static/media/google.59ecfc59863caaac8cc8affa50bc34a5.svg",
+    "index.html": "/ProyectoFullStack-AcamicaSprint4/index.html",
+    "static/media/back.svg": "/ProyectoFullStack-AcamicaSprint4/static/media/back.67f326fdb4a7dc38bc5ebacc9c86fbb5.svg",
+    "static/media/off.svg": "/ProyectoFullStack-AcamicaSprint4/static/media/off.0a53b79ec9068c88b9bac5df1c4c8ecc.svg",
+    "static/media/delete.svg": "/ProyectoFullStack-AcamicaSprint4/static/media/delete.1422f5fcc9a8f9fafa327f02d8da9f65.svg",
+    "static/media/on.svg": "/ProyectoFullStack-AcamicaSprint4/static/media/on.cfe63298cab40dd6f24591ea00916a33.svg",
+    "static/media/logout.svg": "/ProyectoFullStack-AcamicaSprint4/static/media/logout.e2f328431a425220c053db4c925aea57.svg",
+    "main.6ccb8c50.css.map": "/ProyectoFullStack-AcamicaSprint4/static/css/main.6ccb8c50.css.map",
+    "main.f892877d.js.map": "/ProyectoFullStack-AcamicaSprint4/static/js/main.f892877d.js.map",
+    "787.537b2553.chunk.js.map": "/ProyectoFullStack-AcamicaSprint4/static/js/787.537b2553.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ccb8c50.css",
+    "static/js/main.f892877d.js"
+  ]
+}
