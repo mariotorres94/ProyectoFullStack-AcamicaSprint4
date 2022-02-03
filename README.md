@@ -1,6 +1,6 @@
 # Aplicación Web - [Carrera: Desarrollo Web Frontend]
 
-## Aplicación de Busqueda de Gifos
+## Aplicación WEB Dev - United
 * [Link a la demo](https://mariotorres94.github.io/ProyectoFullStack-AcamicaSprint4/)
 
 ## Tecnologías y recursos utilizados 
