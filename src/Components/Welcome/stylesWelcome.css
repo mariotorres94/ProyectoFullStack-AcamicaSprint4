@@ -1,0 +1,205 @@
+.welcome__section h1{
+    width: 311px;
+    /* height: 65px; */
+    margin: 0 auto;
+    font-family: Silkscreen;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 169px;
+    color: var(--colorLetter);
+}
+.welcome__section h1 > span{
+    color: var(--colorLetterDevs);
+}
+.welcome__section > p{
+    width: 311px;
+    height: 23px;
+    margin: 0 auto;
+    text-align: left;
+    color: var(--colorLetter);
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 24px;
+    font-family: 'Fira Code';
+}
+.welcome__section > p:last-child{
+    width: 311px;
+    height: 56px;
+    font-family: 'Fira Code';
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 37px;
+    color: var(--colorLetterMorado);
+}
+.welcome__section > p:last-child span{
+    color: var(--colorLetterDevs);
+}
+
+.welcome__section input[type="text"]{
+    background-color: var(--backgroundInput);
+    width: 311px;
+    height: 53px;
+    padding: 10px;
+    font-family: 'Fira Code';
+    color: var(--colorLetterInput);
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 31px;
+    margin: 22px;
+    outline: none;
+}
+
+.welcome__select__color{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 311px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 22px;
+    margin-bottom: 37px;
+}
+
+.red{
+    width: 43px;
+    height: 43px;
+    background-color: red;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+}
+.red:hover{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+.red:checked{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+
+.orange{
+    background-color: orange;
+    width: 43px;
+    height: 43px;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+}
+.orange:hover{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+.orange:checked{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+
+.yellow{
+    background-color: yellow;
+    width: 43px;
+    height: 43px;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+}
+.yellow:hover{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+.yellow:checked{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+
+.green{
+    background-color: greenyellow;
+    width: 43px;
+    height: 43px;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+}
+.green:hover{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+.green:checked{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+
+.skyBlue{
+    background-color: skyblue;
+    width: 43px;
+    height: 43px;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+}
+.skyBlue:hover{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+.skyBlue:checked{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+
+.purple{
+    background-color: purple;
+    width: 43px;
+    height: 43px;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+}
+.purple:hover{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+.purple:checked{
+    border: 5px solid var(--colorLetter);
+    transition: all 0.5s ease-in-out;
+}
+
+.continue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 311px;
+    height: 52px;
+    background-color: var(--colorContinue);
+    font-size: 24px;
+    margin: auto;
+}
+
+.continue button {
+    color: var(--colorLetter);
+    font-family: Silkscreen;
+    font-size: 20px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: bold;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+}
+/* 
+.copy__right{
+    width: 311px;
+    height: 56px;
+    padding: 37px 52px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 18px;
+    color: var(--colorLetter);
+}
+.copy__right span{
+    color: var(--colorLetterDevs);
+} */

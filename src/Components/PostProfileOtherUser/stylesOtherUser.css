@@ -1,0 +1,36 @@
+.header__otherUser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+}
+
+.back__otherUser{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+.back__otherUser h3{
+    margin-left: 22px;
+    font-family: Silkscreen;
+    font-size: 16px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: bold;
+    color: var(--colorLetter);
+}
+.back__otherUser img{
+    cursor: pointer;
+}
+
+.posts__profile{
+    padding-bottom: 28px;
+}
+
+@media (min-width: 1100px){
+    .header__otherUser{
+        width: 605px;
+        height: 52px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,80 @@
+
+.home{
+    text-align: center;
+}
+
+.home__logo img{
+    margin-top: 103px;
+}
+
+.home__main{
+    margin-top: 104px;
+    color: var(--colorLetter);
+}
+.home__main h1{
+    width: 311px;
+    height: 65px;
+    margin: 0 auto;
+    font-family: Silkscreen;
+    font-size: 36px;
+    text-align: left;
+}
+.home__main h4{
+    width: 311px;
+    height: 42px;
+    margin: 0 auto;
+    font-family: 'Fira Code';
+    margin-top: 41px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 450;
+    font-style: normal;
+}
+.home__main p{
+    margin-top: 41px;
+}
+.home__main > p:last-child{
+    color: var(--colorLetterMorado);
+    height: 56px;
+}
+.home__main > p:last-child span{
+    color: var(--colorLetterDevs);
+}
+
+.button__google{
+    width: 311px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--colorButton);
+    border-radius: 3px;
+    margin-top: 41px;
+    cursor: pointer;
+}
+.button__google p{
+    margin: auto;
+}
+
+.background__img__google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+    border-radius: 3px 0 0 3px;
+    background-color: var(--colorLetter);
+}
+
+@media (min-width: 1100px) {
+    .home{
+        display: grid;
+        grid-template: 720px / 720px;
+        align-items: center;
+        text-align: center;
+        grid-template-areas: "imagen login";
+        color: var(--colorLetter);
+    }
+}

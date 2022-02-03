@@ -1,0 +1,266 @@
+.listTweets__img{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.feed__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feed__header img:first-child{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin: 10px 0px 9px 18px;
+}
+.feed__header img:nth-child(2){
+    margin: 12px 0 13px 0;
+}
+.feed__header p{
+    color: var(--colorLetter);
+    margin: 19px 16px 18.28px 0;
+}
+.feed__header p span{
+    color: var(--colorLetterDevs);
+}
+.feed__header img{
+    cursor: pointer;
+}
+
+.feed__section{
+    width: 100%;
+    height: 248px;
+    text-align: center;
+    background-color: var(--backgroundInput);
+    border-bottom: 2px solid var(--colorLetterMorado);
+}
+.feed__section > hr{
+    background-color: var(--colorContinue);
+    width: 76px;
+    height: 3px;
+    border: none;
+    position: absolute;
+    left: 73px;
+    /* top: -5px; */
+}
+
+.feed__content img{
+    border-radius: 50%;
+    margin-right: 10px; 
+    margin-bottom: 99px;
+}
+.feed__content textarea{
+    width: 324px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 0%;
+    resize: none;    
+    border: none;
+    background-color: var(--backgroundTextArea);
+    padding: 6px 0 0 7px;
+    color: var(--colorLetterInput);
+    font-family: 'Fira Code';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 21px;
+    letter-spacing: -0.333px;
+    outline: none;
+}
+
+.textMax{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--colorLetter);
+    margin-top: 6px;
+}
+.textMax p:first-child{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: calc(50% - 17px/2 - 124.5px);
+    top: 234px;
+}
+.textMax p:last-child{
+    color: var(--colorLetterDevs);
+    position: absolute;
+    width: 65px;
+    height: 18px;
+    left: 330px;
+    top: 230px;
+}
+.buttonPost{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 16px;
+    margin-top: 24px;
+}
+.buttonPost button{
+    width: 102px;
+    height: 35px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    border-radius: 0%;
+    border: none;
+    letter-spacing: -0.333px;
+    background-color: var(--backgroundTextArea);
+    cursor: pointer;
+}
+
+.listTweet__content{
+    display: flex;
+    width: 414px;
+    height: 210px;
+    padding: 20px 0 0 16px;
+    border-bottom: 2px solid var(--colorLetterMorado);
+    color: var(--colorLetter);
+}
+
+.listTweet__img img{
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.listTweet__msj{
+    width: 324px;
+    height: 101px;
+}
+.listTweet__msj h2{
+    margin-bottom: 13px;
+}
+
+.lisTweet__msj__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.lisTweet__msj__flex > img{
+    cursor: pointer;
+}
+.lisTweet__msj__flex h2 > span{
+    color: var(--colorLetter);
+}
+
+.listTweet__msj p{
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 450;
+    line-height: 18px;
+    width: 324px;
+    height: 101px;
+    padding: 4px;
+}
+
+.listTweet__likes{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listTweet__likes img{
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+@media (min-width: 1100px){
+    .feed{
+        text-align: center;
+    }
+    .feed__header{
+        width: 605px;
+        height: 52px;
+        margin: 0 auto;
+    }
+    .feed__section{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .feed__content{
+        width: 573px;
+        margin: 0 auto;
+    }
+    .feed__content img{
+        width: 56px;
+        height: 56px;
+        margin-bottom: 57px;
+    }
+    .feed__content textarea{
+        width: 500px;
+        height: 113px;
+    }
+    .listTweet__content{
+        width: 605px;
+        height: 246px;
+        margin: 0 auto;
+        border-bottom: 2px solid var(--colorLetterMorado);
+    }
+    .listTweet__msj img:last-child{
+        margin: 0;
+    }
+    .listTweet__msj h2{
+        margin: 0;
+    }
+    .listTweet__msj p {
+        width: 500px;
+        height: 136px;
+        text-align: left;
+        margin-top: 17px;
+    }
+    .listTweet__msj img:last-child{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .lisTweet__msj__flex{
+        width: 530px;
+    }
+    .listTweet__likes{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 65px;
+        height: 21px;
+    }
+    .container__section{
+        width: 567px;
+        margin: 0 auto;
+    }
+    .buttonPost{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 34px;
+        margin-right: 0;
+    }
+    .feed__section > hr{
+        position: absolute;
+        width: 76px;
+        height: 3px;
+        left: calc(50% - 76px/2 - 179px);
+        top: 182px;
+    }
+    .textMax p:first-child{
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: calc(50% - 17px/2 - 200px);
+        top: 190px;
+    }
+    .textMax p:last-child{
+        color: var(--colorLetterDevs);
+        position: absolute;
+        width: 75px;
+        height: 21px;
+        left: calc(50% - 75px/2 + 249.5px);
+        top: 191px;
+    }
+}
